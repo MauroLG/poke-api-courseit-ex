@@ -1,0 +1,56 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f2f3f5;
+}
+
+.container {
+  background-color: rgb(64, 194, 255);
+  width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.poke-input {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  width: 70%;
+  padding: 1.2rem;
+  box-shadow: inset 0.1rem 0.1rem 0.1rem #ccc;
+  border-radius: 1rem;
+  border-style: none;
+  outline: none;
+}
+
+.name {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgb(0, 89, 131);
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 225px;
+  height: 225px;
+  margin-bottom: 1rem;
+}
+
+.info {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#poke-image {
+  width: 100%;
+  border-radius: 50%;
+}
